@@ -1,5 +1,3 @@
-@use 'sass:map';
-
 $white: #fff;
 $black: #000;
 
@@ -76,11 +74,3 @@ $colors: (
     '950': #053321,
   ),
 );
-
-// @debug map.get(map.get($colors, 'gray'), '25');
-
-// $type: 'gray';
-// $level: '250';
-
-// @debug map.has-key($colors, $type);
-// @debug map.has-key(map.get($colors, $type), $level);
